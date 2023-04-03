@@ -28,4 +28,4 @@ while count != -1 and count >= 0:
 print(stack.pop())
 
 # mengecek apakah stack kosong dan mencetak hasilnya
-print(len(stack) == 1)
+print(bool(stack))
